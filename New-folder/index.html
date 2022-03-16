@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div id="all-done" class="flex-container flex-column">
+            <h3 id="viewScores">View high scores</h3>
+            <form class="input-group mb-3">
+                <input type="text" name="initials" id="initials" placeholder="Please, enter your initials">
+                <button type="submit" class="btn" id="saveScorebtn" onclick="saveHighScore(event)" disabled>SUBMIT</button> 
+            </form>
+            <a class="btn">START OVER</a> 
+            <a class="btn">MAIN PAGE</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

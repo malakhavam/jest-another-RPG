@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/programming-code-coding-or-hacker-background-vector.jpg");
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ 
+ .btn{
+     margin: auto;
+     margin-bottom: 5px;
+     background-color: rgb(77, 107, 22);
+     color: white;
+     display: list-item;
+     justify-content: space-between;
+     width: fit-content;
+     height:38px;
+     text-align:center;
+     line-height:1.1em;
+     font-size:1.1em;
+         
+ }
+
+#quizQuestion{
+ margin: auto;
+ padding: 5px;
+
+}
+
+#highScoreList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover {
+    transform: scale(1.025);
+}
+     
+
+
+ #result{
+     font-size: 2em;
+ }
